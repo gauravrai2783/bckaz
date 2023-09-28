@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk update -y
+RUN apk update
 RUN apk add nodejs npm
 
 RUN mkdir /root/app
